@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+    color: red;
+}
+
+.paragraph {
+    background-color: aliceblue;
+    margin-left: 20px;
+    color: black;
+}
+
+.link a {
+    color: black;
+}
+
+.link {
+    color: black;
+}
+
+.list-head {
+    margin-left: 525px;
+    width: 300px;
+    text-align: center;
+    color: grey;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+}
+
+.unorder-list {
+    text-align: center;
+}
+
+.order-list {
+    text-align: center;
+}
+
+.descript-list {
+    text-align: center;
+}
+
+.image img {
+    margin-left: 380px;
+    display: flex;
+    flex-direction: row;
+}
+
+.table-header {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.table {
+    margin-left: 530px;
+}
+
+.table .table-head {
+    background-color: greenyellow;
+}
+
+.button {
+    text-align: center;
+}
+
+.form1 {
+    margin-top: 50px;
+    margin-left: 530px ;
+}
+.send {
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+.form2 {
+    margin-top: 50px;
+    margin-left: 530px ;
+}
+.html {
+    margin-top: 50px;
+    margin-left: 540px;
+}
+
+.map {
+    margin-top: 50px;
+    margin-left: 400px ; 
+}
+.yt {
+    margin-top: 50px;
+    margin-left: 430px ;
+}
+
+.media {
+    background-color: blue;
+    text-align: center;
+}
+footer{
+    margin: 0;
+    padding: 10;
+    background-color: maroon;
+}
+
+footer p{
+    color: white;
+}

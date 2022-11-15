@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Tugas CSS</title>
+    <link rel="icon" href="./media/logo.png" type="image/x-icon">
+</head>
+<body>
+<!-- No.1 Heading -->
+    <h1 class="header">Heading1</h1>
+    <h2 class="header">Heading2</h2>
+    <h2 class="header">Heading3</h3>
+    <h4 class="header">Heading4</h4>
+    <h5 class="header">Heading5</h5>
+    <h6 class="header">Heading6</h6>
+    <br>
+<!-- No.2 Paragraph -->
+    <p class="paragraph">Belajar Web Design</p>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, atque?</p>
+
+<!-- No.3 Format Text -->
+    <p class="paragraph"><b>Tuliasan Bold</b> </p>
+    <p class="paragraph"><u>tulisan underline</u></p>
+    <p class="paragraph"><i>tulisan italic</i></p>
+    <p class="paragraph">2<sup>2</sup></p>
+    <p class="paragraph">Belajar <strong>Web Design</strong></p>
+    <em class="paragraph">this text is ehmpasized</em>
+    <small class="paragraph">this is some smaller test</small>
+    <p class="paragraph">do not foregt to buy <mark>milk</mark></p>
+    <p class="paragraph">My favorite color <del>blue</del> red</p>
+
+<!-- No.4 Comments -->
+    <p class="paragraph">Belajar Web Design</p>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, atque?</p> -->
+        <br>
+<!-- No.5 Background Color -->
+    <h1 style="background-color: blue;">Heading1</h1>
+    <p style="background-color: red;">Belajar Web design</p>
+    <p style="background-color: blue;">lorem ipam dolor sit, amet</p>
+        <br>
+<!-- No.6 Hyperlinks -->
+    <a class="link" href="http://www3schools.com">Visit W3School here</a>
+    <h2 class="header">Absolute URLs</h2>
+    <p class="link"><a href="http://www.w3.org">W3C</a></p>
+    <p class="link"><a href="http://www.google.com/">Google</a></p>
+
+    <h2 class="header">Relative URLs</h2>
+    <p class="link"><a href="html_images.asp">HTML Images</a></p>
+    <p class="link"><a href="/css/default.asp">CSS Tutorial</a></p>
+
+    <h2 class="header">Link Email</h2>
+    <a class="link" href="madito:someone@example.com">Send Email</a>
+    <h2 class="header">Link isi tittle</h2>
+    <a class="link" href="https://www.w3schools.com/html/" title="Go To W3Schools HTML Senction"> Visit Our HTML Tutorial</a> 
+
+<!-- No.7 List -->
+    <h2 class="list-head">Unordered List</h2>
+    <ul class="unorder-list">
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h2 class="list-head">Ordered List</h2>
+    <ol class="order-list">
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <h2 class="list-head">Description List</h2>
+    <dl class="descript-list">
+        <dt>Coffe</dt>
+            <dd>- Black Hot Drink</dd>
+        <dt>Milk</dt>
+            <dd>- White Cold Drink</dd>
+    </dl>
+    
+<!-- No.8 Images -->
+    <h2 class="header">Tampil Gambar</h2>
+    <div class="image">
+    <img src="./media/logo.png"width="120" height="120"  alt="Logo Bali">
+    <img src="./media/logo.png" width="50" height="50" alt="Gambar Makanan">
+    <img src="./media/logo.png" width="70" height="70" alt="">
+    </div>
+<!-- No.9 Favicon -->
+    <h2 class="header">Tampil Logo</h2>
+
+<!-- No.10 Table -->
+    <h2 class="table-header">Tampil Table</h2>
+    <table class="table" border="1">
+        <thead class="table-head">
+            <tr>
+                <th>No.</th>
+                <th>Nama Lengkap</th>
+                <th>No Telp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jaya Wijoyo</td>
+                <td>08112323232</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kusuma Wati</td>
+                <td>08223239842</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <h2>Tampil Table Modifikasi</h2>
+    <table border="1" style="width: 60%;">
+        <thead>
+            <tr style="background-color: green;">
+                <th style="width: 5%;">No.</th>
+                <th style="width: 45%;">Nama Lengkap</th>
+                <th style="width: 10%;">No Telp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Jaya Wijoyo</td>
+                <td><img src="./media/logo.png" width="40" height="40" alt=""></td>
+            </tr>
+            <tr>
+                <td>Kusuma Wati</td>
+                <td><img src="./media/logo.png" width="40" height="40" alt=""></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Rata-rata Umur</td>
+                <td>16</td>
+            </tr>
+        </tfoot>
+        
+
+    </table>
+    <br>
+
+<!-- No.11 Button -->
+    <div class="button">
+    <input type="submit" value="KIRIM 1">
+    <input type="button" value="BUTTON 1">
+    <input type="reset" value="RESET 1">
+    <br>
+
+    <button type="button" name="button">BUTTON 2</button>
+    <button type="submit" name="button">KIRIM 2</button>
+    <button type="reset" name="button">RESET 2</button><br>
+    <br>
+    </div>
+<!-- No.12 Form -->
+    <form class="form1">
+        <label>NIK</label>
+        <input type="text" name="nik" placeholder="NIK"><br>
+    
+        <label>Nama</label>
+        <input type="text" name="namalengkap" placeholder="Nama Lengkap"><br>
+
+        <label>Tanggal Lahir</label>
+        <input type="date" name="tgl_lahir"><br>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Email"><br>
+        <label>Password</label>
+        <input type="password" name="password" placeholder="password"><br>
+
+        <label>Jenis kelamin</label>
+        <input type="radio" name="jk" id="jk" value="laki-laki">
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" name="jk" id="jk" value="perempuan">
+        <label for="perempuan">Perempuan</label><br>
+
+        <label>Agama</label>
+        <select name="agama">
+            <option value="hindu">Hindu</option>
+            <option value="islam">Islam</option>
+            <option value="buddha">Buddha</option>
+            <option value="kristen">Kristen</option>
+            <option value="katolik">Katolik</option>
+            <option value="konghucu">Konghucu</option>
+        </select><br>
+
+        <label>Hobi</label><br>
+        <input type="checkbox" id="Sepeda" value="Bersepeda">
+        <label for="sepeda">Bersepeda</label><br>
+        <input type="checkbox" id="Sepak Bola" value="sepak bola">
+        <label for="Sepak Bola">Sepak Bola</label><br>
+        <input type="checkbox" id="baca" value="Membaca">
+        <label for="baca">Membaca</label><br>
+
+        <label>File Foto</label>
+        <input type="file" name="avatar" id="avatar" accept="image/png, image/jpeg"><br>
+    
+        <label>Mesin Pencarian</label>
+        <input type="search" name="cari" placeholder="kata pencarian...." >
+        <button>Cari</button><br>
+
+        <label>Input Url</label>
+        <input type="url" name="url"><br>
+
+        <label>Alamat</label><br>
+        <textarea name="alamat" cols="20" rows="5"></textarea><br>
+
+        <label>Jumlah Barang Yang Dibeli :</label>
+        <input type="number" name="number"><br>
+
+
+
+
+    <button class="send">Kirim</button>
+    </form>
+
+<!-- No.13 Form and Table -->
+    <form class="form2">
+        <table border="0" align="center">
+            <tr>
+                <td colspan="3" align="center"><b>Form Pendaftaraan</b></td>
+            </tr>
+            <tr>
+                <td>NIK</td>
+                <td>:</td>
+                <td><input type="text" name="nik" placeholder="NIK"></td>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama-lengkap" placeholder="Nama Lengkap"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td><input type="date" name="tanggal-lahir"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jenis-kelamin" id="jenis-kelamin" value="laki-laki">
+                    <label for="laki-laki">Laki-laki</label>
+                    <input type="radio" name="jenis-kelamin" id="jenis-kelamin" value="peremnpuan">
+                    <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <select name="agama">
+                        <option value="hindu">Hindu</option>
+                        <option value="islam">Islam</option>
+                        <option value="buddha">Buddha</option>
+                        <option value="kristen">Kristen Protestan</option>
+                        <option value="katolik">Kristen Katolik</option>
+                        <option value="konghucu">Konghucu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" id="Sepeda" value="Bersepeda">
+                    <label for="sepeda">Bersepeda</label><br>
+                    <input type="checkbox" id="Sepak Bola" value="sepak bola">
+                    <label for="Sepak Bola">Sepak Bola</label><br>
+                    <input type="checkbox" id="baca" value="Membaca">
+                    <label for="baca">Membaca</label>
+                </td>
+            </tr>
+            <tr>
+                <td>File Foto</td>
+                <td>:</td>
+                <td>
+                    <input type="file" name="avatar" id="avatar" accept="image/png, image/jpeg">
+                </td>
+            </tr>
+            <tr>
+                <td>Mesin Pencarian</td>
+                <td>:</td>
+                <td>
+                    <input type="search" name="cari" placeholder="kata pencarian...." >
+                    <button>Cari</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Impor Url</td>
+                <td>:</td>
+                <td><input type="url" name="url"><br></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea name="alamat" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jumlah barang yang dibeli</td>
+                <td>:</td>
+                <td><input type="number" name="number"></td>
+            </tr>
+            <tr>
+                <td align="right"><button>Batal</button></td>
+                <td colspan="2" align="left"><button>Kirim</button></td>
+            </tr>
+        </table>
+    </form>
+
+<!-- No.14 I-Frames -->
+    <h2 class="header">Iframe HTML</h2>
+    <div class="html">
+    <iframe src="https://instiki.ac.id/"></iframe> <br>
+    </div>
+    <!-- iframe Goggle Maps -->
+    <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.007837297212!2d115.22411731433671!3d-8.690803390923742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2410294415595%3A0xb9b6c94ad0c08b24!2sInstitut%20Bisnis%20dan%20Teknologi%20Indonesia%20(INSTIKI)!5e0!3m2!1sid!2sid!4v1667501124694!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+    </div>
+    <div class="yt">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/71a2zeC71gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+<!-- No.15 Div(id, class) -->
+    <div id="header"></div>
+    <div id="sidebar"></div>
+    <div class="main">
+        <div class="section">
+            <div class="artikel">
+                <div class="figure">
+                    <img src="" alt="">
+                        <div class="figcaption">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <header></header>
+    <main>
+        <section>
+            <artikel>
+                <figure>
+                    <img src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </artikel>
+        </section>
+    </main>
+
+<!-- No.16 Media -->
+<div class="media">
+    <h3>Memutar Media</h3> 
+    <video control width="300" height="200">
+        <source src="./media/robot.mp4" type="video/mp4">
+    </video>
+    <br>
+    <audio controls>
+        <source src="./media/robot.mp4">
+    </audio>
+</div>
+
+<footer>
+    <p>Belajar Css</p>
+</footer>
+</body>
+</html>
